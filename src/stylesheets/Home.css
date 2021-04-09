@@ -76,7 +76,7 @@
   transform: translateZ(-50px) scale(1.5);
 }
 .parallax__layer__6 {
-  z-index: 200000;
+  z-index: 300000;
 }
 /* Allow compatibility on IE and Edge without parallax scroll */
 _:-ms-lang(x),
