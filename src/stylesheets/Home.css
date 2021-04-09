@@ -29,6 +29,9 @@
   bottom: 0;
   left: 0;
 }
+.beforecover{
+  z-index: 200000;
+}
 .parallax__layer .parallax__img {
   display: block;
   position: absolute;

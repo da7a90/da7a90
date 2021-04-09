@@ -80,7 +80,7 @@ class Home extends Component {
           />
         </div>
         {/* closest Mountains layer */}
-        <div className="parallax__layer">
+        <div className="parallax__layer beforecover">
           <img
             src={layer_4}
             height="455px"
