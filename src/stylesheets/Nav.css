@@ -14,7 +14,7 @@
   margin: auto;
   position: relative;
   color: whitesmoke;
-  z-index: 100;
+  z-index: 200000;
   padding: 0;
 }
 
