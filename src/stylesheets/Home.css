@@ -44,7 +44,7 @@
   left: 0;
   right: 0;
   height: 2000px;
-  z-index: 2;
+  z-index: 200000;
   width: 3000px;
 }
 

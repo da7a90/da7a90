@@ -5,6 +5,7 @@
 .landing__rightCloud {
   height: 160px;
   position: relative;
+  z-index: 300000;
 }
 
 .landing__rightCloud__img {
@@ -13,10 +14,12 @@
   bottom: -50px;
   right: -150px;
   animation: float 6s ease-in-out infinite;
+  z-index: 300000;
 }
 
 .landing__leftCloud {
   position: relative;
+  z-index: 300000;
 }
 
 .landing__leftCloud__img {
@@ -25,6 +28,7 @@
   top: -50px;
   left: -150px;
   animation: float 3s ease-in-out infinite;
+  z-index: 300000;
 }
 
 .landing__titleBox {
