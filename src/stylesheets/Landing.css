@@ -1,0 +1,54 @@
+.landing__outer {
+  width: 3000px;
+}
+
+.landing__rightCloud {
+  height: 160px;
+  position: relative;
+}
+
+.landing__rightCloud__img {
+  height: 50px;
+  position: absolute;
+  bottom: -50px;
+  right: -150px;
+  animation: float 6s ease-in-out infinite;
+}
+
+.landing__leftCloud {
+  position: relative;
+}
+
+.landing__leftCloud__img {
+  height: 50px;
+  position: absolute;
+  top: -50px;
+  left: -150px;
+  animation: float 3s ease-in-out infinite;
+}
+
+.landing__titleBox {
+  text-align: center;
+  margin: 60px auto;
+  width: 90vw;
+  z-index: 1000;
+}
+
+.landing__titleBox__header {
+  font-size: 60px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin-bottom: 0;
+  text-align: center;
+  letter-spacing: 3px;
+  z-index: 10000;
+}
+
+.landing__titleBox__subHeader {
+  font-family: "Lato", serif;
+  color: #1f3163;
+  font-size: 30px;
+  margin-top: 10px;
+  z-index: 10000;
+}
