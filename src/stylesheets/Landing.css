@@ -32,6 +32,7 @@
   margin: 60px auto;
   width: 90vw;
   z-index: 1000;
+  padding: 10px;
 }
 
 .landing__titleBox__header {
