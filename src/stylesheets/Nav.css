@@ -5,7 +5,7 @@
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   overflow: auto;
   position: relative;
-  z-index: 7000;
+  z-index: 300000;
 }
 
 .navContainer {
@@ -14,7 +14,7 @@
   margin: auto;
   position: relative;
   color: whitesmoke;
-  z-index: 200000;
+  z-index: 300000;
   padding: 0;
 }
 
