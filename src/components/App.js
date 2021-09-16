@@ -1,6 +1,6 @@
 // IMPORT LIBRARIES
 import React, { Component } from "react";
-import { Switch , Route } from "react-router-dom";
+import { HashRouter as Router , Route } from "react-router-dom";
 
 // IMPORT COMPOENNTS
 import Nav from "./Nav";
@@ -96,7 +96,7 @@ class App extends Component {
   render() {
     return (
       
-      <Switch>
+      <Router>
         <div className="App">
 
           <div className="parallax__overflow" ref={this.myRef}>
@@ -168,7 +168,7 @@ class App extends Component {
           </div>
         </div>
         
-      </Switch>
+      </Router>
     );
   }
 }
