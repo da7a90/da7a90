@@ -19,7 +19,7 @@
   bottom: 0;
   margin-left: -1500px;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 
 .parallax__layer {
@@ -95,7 +95,6 @@ _:-ms-lang(x),
   top: 0;
   left: 0;
   margin: auto;
-  height: 3000px;
   width: 3000px;
   background: #FED978;
   z-index: 1000;
@@ -107,7 +106,6 @@ _:-ms-lang(x),
   top: 0;
   left: 0;
   background: #FED978;
-  height: 3000px;
   width: 3000px;
   z-index: 0;
   transition: all 2s;

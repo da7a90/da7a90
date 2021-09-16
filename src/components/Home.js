@@ -2,7 +2,6 @@
 import React, { Component } from "react";
 
 // IMPORT COMPONENTS
-import HomeSegments from "./HomeSegments";
 import Landing from "./Landing";
 
 // IMPORT STYLESHEETS
@@ -90,12 +89,7 @@ class Home extends Component {
             onLoad={() => this.imageLoaded("layer4")}
           />
         </div>
-        {/* Main content  */}
-        <HomeSegments
-          showPopup={this.props.showPopup}
-          closePopup={this.props.closePopup}
-          scrollToPosition={this.props.scrollToPosition}
-        />
+
       </div>
     );
   }

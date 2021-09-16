@@ -76,7 +76,7 @@
 }
 
 .portfolio__outer__dark {
-  overflow: auto;
+  overflow: hidden;
   background: #FED978;
 }
 

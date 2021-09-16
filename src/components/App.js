@@ -8,7 +8,6 @@ import Home from "./Home";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import Resume from "./Resume";
-import Popup from "./Popup";
 
 // IMPORT STYLESHEETS
 import "../stylesheets/App.css";
@@ -100,15 +99,6 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          {/* Popup - all routes*/}
-          <Route
-            path=""
-            render={props => (
-              <div>
-                {this.state.popup && <Popup popup={this.state.popup} />}
-              </div>
-            )}
-          />
 
           <div className="parallax__overflow" ref={this.myRef}>
             {/* Nav - all routes*/}

@@ -2,7 +2,7 @@
   text-align: center;
   background: #eeca70;
   padding: 70px 0 60px;
-  overflow: auto;
+  overflow: hidden;
   display: flex;
   justify-content: center;
 }

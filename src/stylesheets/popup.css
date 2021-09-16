@@ -16,7 +16,7 @@
   background: rgb(0, 0, 0);
   border-radius: 5px;
   box-sizing: border-box;
-  overflow: auto;
+  overflow: hidden;
   position: relative;
   background-image: url("../images/bg.svg");
   background-position: top center;

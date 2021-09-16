@@ -6,10 +6,12 @@
 font-family: "Montserrat", sans-serif;
 font-family: "Lato", serif;
 */
+.App{
+overflow: hidden;
 
+}
 .container__outer {
   padding: 70px 0 130px;
-  overflow: auto;
 }
 
 .container {

@@ -52,7 +52,7 @@ class Nav extends Component {
                     className="nav__rightContainer__link"
                     onClick={() => this.props.closeMobileMenu()}
                   >
-                    HOME
+                    Home
                   </NavLink>
                   {/* Portfolio Link */}
                   <NavLink
@@ -61,7 +61,7 @@ class Nav extends Component {
                     className="nav__rightContainer__link"
                     onClick={() => this.props.closeMobileMenu()}
                   >
-                    PORTFOLIO
+                    Projects
                   </NavLink>
                   {/* Resume Link */}
                   <NavLink
@@ -70,7 +70,7 @@ class Nav extends Component {
                     activeClassName="nav__active"
                     onClick={() => this.props.closeMobileMenu()}
                   >
-                    R&Eacute;SUM&Eacute;
+                    R&eacute;sum&eacute;
                   </NavLink>
                   {/* Contact Link */}
                   <NavLink
@@ -79,7 +79,7 @@ class Nav extends Component {
                     activeClassName="nav__active"
                     onClick={() => this.props.closeMobileMenu()}
                   >
-                    CONTACT
+                    Contact
                   </NavLink>
                 </div>
               </div>
