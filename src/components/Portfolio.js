@@ -27,6 +27,7 @@ class PortHeader extends Component {
 
   render() {
     return (
+
       <div className="parallax__cover__portfolio">
         {/* ------ section header -----------*/}
         <Heading

@@ -8,8 +8,6 @@ import Landing from "./Landing";
 import "../stylesheets/Home.css";
 
 // IMPORT IMAGES
-import layer_1 from "../images/parallax/layer_1.svg";
-import layer_2 from "../images/parallax/layer_2.svg";
 import layer_3 from "../images/parallax/layer_3.svg";
 import layer_4 from "../images/parallax/layer_4.svg";
 
@@ -45,28 +43,8 @@ class Home extends Component {
           {/* Landing Container (name, title and clouds) */}
           <Landing imageLoaded={this.imageLoaded} />
         </div>
-        {/* Back Mountains layer */}
-        <div className="parallax__layer parallax__layer__3">
-          <img
-            src={layer_1}
-            height="455px"
-            width="3000px"
-            className="parallax__img"
-            alt="mountains"
-            onLoad={() => this.imageLoaded("layer1")}
-          />
-        </div>
-        {/* Second furthest Mountains layer */}
-        <div className="parallax__layer parallax__layer__4">
-          <img
-            src={layer_2}
-            height="455px"
-            width="3000px"
-            className="parallax__img"
-            alt="mountains"
-            onLoad={() => this.imageLoaded("layer2")}
-          />
-        </div>
+
+
         {/* Second closest Mountains layer */}
         <div className="parallax__layer parallax__layer__5">
           <img

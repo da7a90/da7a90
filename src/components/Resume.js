@@ -1,6 +1,7 @@
 // IMPORT LIBRARIES
 import React, { Component } from "react";
 
+
 // IMPORT COMPONENTS
 import Heading from "./Heading";
 
@@ -21,7 +22,7 @@ class Resume extends Component {
 
   render() {
     return (
-      <div className="">
+
         <div className="parallax__cover__portfolio">
           <Heading
             title="Resume"
@@ -31,7 +32,6 @@ class Resume extends Component {
             link={ResumePDF}
           />
 
-        </div>
       </div>
     );
   }

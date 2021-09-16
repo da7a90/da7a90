@@ -1,6 +1,6 @@
 // IMPORT LIBRARIES
 import React, { Component } from "react";
-import { HashRouter as Router, Route } from "react-router-dom";
+import { Switch , Route } from "react-router-dom";
 
 // IMPORT COMPOENNTS
 import Nav from "./Nav";
@@ -14,6 +14,7 @@ import "../stylesheets/App.css";
 import "../stylesheets/Home.css";
 import "../stylesheets/ContactSeg.css";
 import "../stylesheets/Resume.css";
+//import { AnimatePresence, motion } from "framer-motion";
 
 class App extends Component {
   constructor(props) {
@@ -33,13 +34,10 @@ class App extends Component {
   componentDidMount() {
     // Hide nav on initial load
 
-    this.scrollToPosition(80);
     // Listen for click and resize
     window.addEventListener("click", this.closePopup);
     window.addEventListener("resize", this.handleWindowResize);
     // pre-load bg img for popup
-    var image = new Image();
-    image.src = "../images/bg.svg";
   }
 
   componentWillUnmount() {
@@ -97,7 +95,8 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      
+      <Switch>
         <div className="App">
 
           <div className="parallax__overflow" ref={this.myRef}>
@@ -105,13 +104,11 @@ class App extends Component {
             <Route
               path=""
               render={props => (
-                <div>
                   <Nav
                     mobileMenu={this.state.mobileMenu}
                     toggleMobileMenu={this.toggleMobileMenu}
                     closeMobileMenu={this.closeMobileMenu}
                   />
-                </div>
               )}
             />
             {/* Home - home route*/}
@@ -119,45 +116,59 @@ class App extends Component {
               path=""
               exact
               render={props => (
+                
+            
                 <Home
                   showPopup={this.showPopup}
                   closePopup={this.closePopup}
                   scrollToPosition={this.scrollToPosition}
                 />
+                
               )}
             />
             {/* Portfolio - portfolio route*/}
             <Route
               path="/portfolio"
               render={props => (
+                
+             
                 <Portfolio scrollToPosition={this.scrollToPosition} />
+               
+                
               )}
             />
             {/* Contact - contact route*/}
             <Route
               path="/contact"
               render={props => (
+                
+                 
                 <Contact
                   showPopup={this.showPopup}
                   closePopup={this.closePopup}
                   scrollToPosition={this.scrollToPosition}
                 />
+                
               )}
             />
             {/* Resume - resume route*/}
             <Route
               path="/resume"
               render={props => (
+                
+
                 <Resume
                   showPopup={this.showPopup}
                   closePopup={this.closePopup}
                   scrollToPosition={this.scrollToPosition}
                 />
+                
               )}
             />
           </div>
         </div>
-      </Router>
+        
+      </Switch>
     );
   }
 }

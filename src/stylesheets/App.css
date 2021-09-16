@@ -12,6 +12,7 @@ overflow: hidden;
 }
 .container__outer {
   padding: 70px 0 130px;
+  background: linear-gradient(#ffffff, #9dc4ff);
 }
 
 .container {

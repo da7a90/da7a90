@@ -14,6 +14,7 @@ class Contact extends Component {
   }
   render() {
     return (
+     
       <div className="parallax__cover__contact">
         {/* Header */}
         <Heading

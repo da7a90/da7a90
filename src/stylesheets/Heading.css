@@ -32,7 +32,7 @@
 
 .heading__button:hover {
   cursor: pointer;
-  background: #3495d9;
+  background: #2c9dee;
   transition: background 0.3s;
 }
 
