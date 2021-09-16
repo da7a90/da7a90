@@ -30,7 +30,7 @@
   left: 0;
 }
 .beforecover{
-  z-index: 200000;
+  z-index: 2;
 }
 .parallax__layer .parallax__img {
   display: block;
@@ -39,7 +39,7 @@
 }
 
 .parallax__cover {
-  background: #192835;
+  background: #FED978;
   display: block;
   position: absolute;
   width: 3000px;
@@ -47,7 +47,7 @@
   left: 0;
   right: 0;
   height: 2000px;
-  z-index: 200000;
+  z-index: 2;
   width: 3000px;
 }
 
@@ -57,7 +57,7 @@
 
 .parallax__layer__1 {
   transform: translateZ(-250px) scale(3.5);
-  z-index: 10000;
+  z-index: 1;
 }
 
 .parallax__layer__2 {
@@ -76,7 +76,7 @@
   transform: translateZ(-50px) scale(1.5);
 }
 .parallax__layer__6 {
-  z-index: 300000;
+  z-index: 4;
 }
 /* Allow compatibility on IE and Edge without parallax scroll */
 _:-ms-lang(x),
@@ -97,7 +97,7 @@ _:-ms-lang(x),
   margin: auto;
   height: 3000px;
   width: 3000px;
-  background: #203244;
+  background: #FED978;
   z-index: 1000;
 }
 
@@ -106,12 +106,19 @@ _:-ms-lang(x),
   position: fixed;
   top: 0;
   left: 0;
-  background: #203244;
+  background: #FED978;
   height: 3000px;
   width: 3000px;
   z-index: 0;
   transition: all 2s;
 }
+
+@media only screen and (max-width: 1150px) {
+  .parallax__layer__6 {
+    z-index: 4;
+  }
+}
+
 
 @keyframes float {
   0% {

@@ -1,5 +1,5 @@
 .contactSeg__outer {
-  background: #192835;
+  background: #FED978;
   padding: 70px 0 90px;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .contactSeg__header {
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   margin-bottom: 45px;
   font-size: 36px;
@@ -20,7 +20,7 @@
 }
 
 .contactSeg__para {
-  color: lightgray;
+  color: rgb(0, 0, 0);
   line-height: 1.6em;
   font-weight: normal;
   font-size: 22px;
@@ -69,24 +69,24 @@
   vertical-align: top;
   font-size: 27px;
   margin-left: 20px;
-  color: #b4c6df;
+  color: rgb(0, 0, 0);
   font-family: "Lato", serif;
 }
 
 @media only screen and (max-width: 1150px) {
   .contactSeg__icon {
-    height: 80px;
+    height: 130px;
     display: inline-block;
     padding: 10px;
   }
 
   .contactSeg__iconBox {
-    height: 80px;
+    height: 130px;
     padding: 0 00px;
   }
 
   .contactSeg__iconLabel {
-    line-height: 80px;
+    line-height: 130px;
     margin-left: 5px;
   }
 }

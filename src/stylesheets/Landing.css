@@ -5,7 +5,7 @@
 .landing__rightCloud {
   height: 160px;
   position: relative;
-  z-index: 300000;
+  z-index: 2;
 }
 
 .landing__rightCloud__img {
@@ -14,12 +14,12 @@
   bottom: -50px;
   right: -150px;
   animation: float 6s ease-in-out infinite;
-  z-index: 300000;
+  z-index: 2;
 }
 
 .landing__leftCloud {
   position: relative;
-  z-index: 300000;
+  z-index: 2;
 }
 
 .landing__leftCloud__img {
@@ -28,7 +28,7 @@
   top: -50px;
   left: -150px;
   animation: float 3s ease-in-out infinite;
-  z-index: 300000;
+  z-index: 2;
 }
 
 .landing__titleBox {
@@ -43,11 +43,11 @@
   font-size: 60px;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   margin-bottom: 0;
   text-align: center;
   letter-spacing: 3px;
-  z-index: 10000;
+  z-index: 1;
+  animation: float 4s ease-in-out infinite;
 }
 
 .landing__titleBox__subHeader {
@@ -55,5 +55,6 @@
   color: #1f3163;
   font-size: 30px;
   margin-top: 10px;
-  z-index: 10000;
+  z-index: 1;
+  animation: float 4s ease-in-out infinite;
 }

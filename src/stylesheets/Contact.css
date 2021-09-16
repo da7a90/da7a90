@@ -1,10 +1,9 @@
 .parallax__cover__contact {
-  background: #192835;
+  background: #FED978;
   display: block;
   width: 3000px;
   margin-top: 62px;
   position: relative;
-  z-index: 5000;
 }
 
 .contact__header {
@@ -12,7 +11,7 @@
   margin-bottom: 30px;
   text-align: left;
   font-size: 30px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: "Raleway", sans-serif;
   font-weight: 800;
 }
@@ -29,6 +28,8 @@
   padding: 0 15px;
   margin-right: 100px;
   box-sizing: border-box;
+  z-index: 4;
+  position: relative;
 }
 
 .contact__email {
@@ -38,6 +39,8 @@
   padding: 0 15px;
   box-sizing: border-box;
   display: inline-block;
+  z-index: 4;
+  position: relative;
 }
 
 .contact__message {
@@ -47,20 +50,22 @@
   line-height: 25px;
   padding: 10px 15px;
   resize: none;
+  z-index: 4;
+  position: relative;
 }
 
 .contact__message,
 .contact__email,
 .contact__name {
   display: inline-block;
-  background: #2a3e53;
+  background: #FED978;
   /* background: none; */
   outline: none;
-  border: 1px solid #2a3e53;
+  border: 1px solid #FED978;
   font-weight: 400;
   border-radius: 5px;
   font-family: "Lato", serif;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .contact__message::placeholder,

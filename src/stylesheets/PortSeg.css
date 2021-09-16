@@ -5,7 +5,7 @@
 
 .PortSeg__header {
   margin-bottom: 25px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 36px;
   font-family: "Montserrat", sans-serif;
   text-align: left;
@@ -13,10 +13,9 @@
 }
 
 .PortSeg__para {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   line-height: 1.6em;
   font-weight: normal;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   font-size: 22px;
   text-align: left;
   font-family: "Lato", serif;

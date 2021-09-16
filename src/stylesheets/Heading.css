@@ -3,7 +3,7 @@
 }
 
 .heading__header {
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   margin-bottom: 45px;
   font-size: 55px;
@@ -11,7 +11,7 @@
 }
 
 .heading__para {
-  color: lightgray;
+  color: rgb(0, 0, 0);
   line-height: 1.6em;
   font-weight: normal;
   font-size: 22px;
@@ -22,7 +22,7 @@
 .heading__button {
   border: none;
   background: #2c5f88;
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: "Lato", serif;
   padding: 10px 100px;
   border-radius: 5px;
@@ -38,4 +38,6 @@
 
 .heading__link {
   display: inline;
+  position: relative;
+  z-index: 4;
 }

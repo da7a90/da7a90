@@ -1,5 +1,5 @@
 .resumeSeg__outer {
-  background: #192835;
+  background: #FED978;
 }
 
 .resumeSeg__inner {
@@ -9,7 +9,7 @@
 
 .resumeSeg__header {
   margin-bottom: 25px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 36px;
   font-family: "Montserrat", sans-serif;
   text-align: left;
@@ -20,7 +20,7 @@
 }
 
 .resumeSeg__para {
-  color: lightgray;
+  color: rgb(0, 0, 0);
   line-height: 1.6em;
   font-weight: normal;
   font-size: 22px;

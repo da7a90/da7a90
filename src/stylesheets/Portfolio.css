@@ -8,23 +8,21 @@
 }
 
 .parallax__cover__portfolio {
-  background: #192835;
+  background: #FED978;
   display: block;
   width: 3000px;
   margin-top: 62px;
   position: relative;
-  z-index: 5000;
 }
 
 .portfolio__innerHeader {
   margin: 30px 0 10px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 26px;
   font-size: 22px;
   margin-top: 0;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .portfolio__btnContainer {
@@ -52,6 +50,7 @@
   outline: none;
   border: none;
   transition: background 0.3s;
+  color: white;
 }
 
 .portfolio__btn:hover {
@@ -78,27 +77,25 @@
 
 .portfolio__outer__dark {
   overflow: auto;
-  background: #192835;
+  background: #FED978;
 }
 
 .portfolio__outer__light {
-  background: #203344;
+  background: #F2F3F5;
 }
 
 
 
 .portfolio__header {
   margin-bottom: 25px;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 28px;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
 
 .portfolio__para {
-  color: rgb(255, 255, 255);
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  color: rgb(0, 0, 0);
   line-height: 1.6em;
   font-weight: normal;
   font-size: 22px;
